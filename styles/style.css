@@ -2,4 +2,47 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header nav{
+    display: flex;
+    justify-content: space-between;
+    height: 150px;
+    background-color: rgb(245, 245, 245);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+header nav img{
+    width: 60px;
+    height: 60px;
+}
+header ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+header ul li{
+    text-align: center;
+    font-size: 1.2rem;
+    padding: 2px;
+    margin: 0 10px;
+    width: 80px;
+}
+header li a{
+    color: black;
+}
+.leftHeader{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 20%;
+}
+.rightHeader{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    width: 70%;
+    margin-right: 30px;
 }
