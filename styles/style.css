@@ -4,6 +4,13 @@
     box-sizing: border-box;
 }
 
+:root{
+    --color1: #EE5622;
+    --color2: #1E1E24;
+    --color3: #58638B;
+    --color4: #FCFCFC;
+}
+
 #contact-page {
     font-family: Arial, sans-serif;
     background-color: #f4f4f4;
