@@ -1,0 +1,15 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    --color1: #EE5622;
+    --color2: #1E1E24;
+    --color3: #58638B;
+    --color4: #FCFCFC;
+}
+html,body{
+    background-color: var(--color3);
+    color: var(--color4)
+}
