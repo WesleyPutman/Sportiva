@@ -1,3 +1,11 @@
+/* Définition des variables de couleurs */
+:root {
+    --color1: #EE5622;
+    --color2: #1E1E24;
+    --color3: #58638B;
+    --color4: #FCFCFC;
+}
+
 /* Style global */
 body {
     font-family: Arial, sans-serif;
@@ -31,50 +39,49 @@ section p {
     line-height: 1.6;
 }
 
-/* Style des blocs d'options */
-.cta {
-    display: flex;
-    justify-content: space-around;
-    gap: 30px;
-    flex-wrap: wrap;
-}
-
-.cta div {
-    background-color: var(--color1);
+/* Style des sections de sport */
+.sport-section {
+    background-color: var(--color2);
+    color: var(--color4);
     padding: 30px;
+    margin-bottom: 30px;
     border-radius: 10px;
-    width: 250px;
-    cursor: pointer;
-    transition: transform 0.3s ease, background-color 0.3s ease;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: left;
+    width: 80%;
+    margin: 20px auto;
 }
 
-.cta div:hover {
-    transform: scale(1.05);
-    background-color: #D8501E; /* Teinte plus foncée de --color1 */
-}
-
-.cta h3 {
-    font-size: 24px;
-    margin-bottom: 10px;
+.sport-section h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
     color: var(--color4);
 }
 
-.cta p {
+.sport-section p {
     font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+.sport-section .btn {
+    display: inline-block;
+    background-color: var(--color1);
     color: var(--color4);
-    line-height: 1.5;
+    padding: 10px 20px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+.sport-section .btn:hover {
+    background-color: #D8501E; /* Teinte plus foncée de --color1 */
 }
 
 /* Réduire la taille des blocs sur les petits écrans */
 @media (max-width: 768px) {
-    .cta {
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .cta div {
+    .sport-section {
         width: 90%;
-        margin-bottom: 20px;
     }
 }
