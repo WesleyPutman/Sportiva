@@ -20,3 +20,16 @@ html,body{
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
 }
+
+.ranking ul li {
+    display: flex;
+    align-items: center; /* Centre verticalement */
+    gap: 10px; /* Ajoute un espace entre le texte et l'image */
+    list-style: none; /* Supprime les puces */
+    padding: 5px 0; /* Ajoute un peu d'espace pour l'esthétique */
+}
+
+.ranking ul li img {
+    width: 50px;
+    height: auto;
+}
