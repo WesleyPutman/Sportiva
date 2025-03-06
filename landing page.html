@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>Document</title>
 </head>
 <body>
@@ -10,20 +11,20 @@
         <h1>Choisissez votre sport</h1>
         <p>Bienvenue sur notre plateforme dédiée à deux passions : le football et le running ! Sélectionnez l'un de ces sports pour explorer des ressources et des informations adaptées à vos besoins.</p>
     
-        <div class="cta">
-            <div onclick="window.location.href='football.html'">
-                <h3>Football</h3>
-                <p>Plongez dans l'univers du football avec des conseils d'entraînement, des stratégies de jeu, et des événements à ne pas manquer.</p>
-            </div>
-            <div onclick="window.location.href='running.html'">
-                <h3>Running</h3>
-                <p>Améliorez vos performances en course à pied, découvrez des parcours, et inscrivez-vous à des courses locales.</p>
-            </div>
-            <div onclick="window.location.href='contact.html'">
-                <h3>Contact</h3>
-                <p>Vous avez des questions ou des suggestions ? N'hésitez pas à nous contacter, nous sommes là pour vous aider !</p>
-            </div>
+        <!-- Section Football -->
+        <div class="sport-section" id="football">
+            <h2>Football</h2>
+            <p>Notre page football est l'endroit idéal pour tous les passionnés de ce sport. Ici, vous trouverez des conseils d'entraînement, des tactiques, des stratégies de jeu, des informations sur les compétitions à venir et bien plus encore. Que vous soyez un amateur ou un joueur expérimenté, cette page vous apportera tout ce qu'il faut pour approfondir vos connaissances du football.</p>
+            <a href="football.html" class="btn">Accédez à la page Football</a>
+        </div>
+    
+        <!-- Section Running -->
+        <div class="sport-section" id="running">
+            <h2>Running</h2>
+            <p>Si vous êtes un amateur de course à pied, notre page running est faite pour vous. Vous y trouverez des conseils pour améliorer vos performances, des programmes d'entraînement, des informations sur les courses locales et des parcours pour courir. Peu importe votre niveau, nous avons des ressources pour vous aider à atteindre vos objectifs.</p>
+            <a href="running.html" class="btn">Accédez à la page Running</a>
         </div>
     </section>
+    
 </body>
 </html>
