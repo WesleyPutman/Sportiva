@@ -14,6 +14,7 @@ html,body{
     color: var(--color4)
 }
 .ranking h2{
+
     text-align: center;
     margin: 20px 0;
     font-size: 1.7em;
@@ -58,6 +59,13 @@ html,body{
 }
 
 h1 {
+    margin: 20px 0;
     text-align: center;
     font-size: 2.5em;
+}
+h2{
+    margin: 10px 0;
+}
+.football{
+    padding: 40px;
 }
