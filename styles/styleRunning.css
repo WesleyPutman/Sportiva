@@ -1,0 +1,7 @@
+.tips{
+    background-color: var(--color1);
+    
+}
+.tips p{
+    color: var(--color4);
+}
