@@ -33,13 +33,18 @@ header ul{
 header ul li{
     text-align: center;
     font-size: 1.2rem;
-    padding: 2px;
+    padding: 5px;
     margin: 0 10px;
     width: 80px;
+    transition: 0.25s ease-in-out ;
 }
 header li a{
     color: black;
 }
+header li:hover{
+   background-color: salmon ;
+}
+
 .leftHeader{
     display: flex;
     align-items: center;
