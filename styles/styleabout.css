@@ -1,13 +1,12 @@
 body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
-    margin: 20px;
     padding: 0;
     background-color: #f4f4f4;
 }
 .container {
     position: absolute;
-    top: 50%;
+    top: 60%;
     left: 50%;
     transform: translate(-50%, -50%);
     max-width: 800px;
